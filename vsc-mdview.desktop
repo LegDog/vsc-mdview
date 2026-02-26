@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=vsc-mdview
+Comment=View Markdown files
+Exec=vsc-mdview %f
+Icon=vsc-mdview
+Terminal=false
+Categories=Office;Viewer;
+MimeType=text/markdown;text/x-markdown;text/plain;
+StartupNotify=true

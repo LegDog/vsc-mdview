@@ -1,0 +1,37 @@
+.TH VSC-MDVIEW 1 "February 2026" "vsc-mdview 0.1.0" "User Commands"
+.SH NAME
+vsc-mdview \- GNOME Markdown viewer with embedded WebKit rendering
+.SH SYNOPSIS
+.B vsc-mdview
+.I FILE
+.SH DESCRIPTION
+.B vsc-mdview
+reads a Markdown file, converts it to HTML in memory, and displays it in an
+embedded WebKit browser widget.
+.PP
+The application follows GNOME interface settings for dark or light appearance
+and desktop fonts.
+.SH OPTIONS
+.TP
+.I FILE
+Path to the Markdown file to open.
+.SH EXAMPLES
+.TP
+.B vsc-mdview README.md
+Open the project README file.
+.SH EXIT STATUS
+.TP
+.B 0
+Success.
+.TP
+.B 1
+Invalid usage or file read/conversion failure.
+.SH FILES
+.TP
+.I /usr/share/applications/vsc-mdview.desktop
+Desktop launcher.
+.TP
+.I /usr/share/icons/hicolor/*/apps/vsc-mdview.png
+Application icons.
+.SH AUTHOR
+Maintained by the vsc-mdview project contributors.
